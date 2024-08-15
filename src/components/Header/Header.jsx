@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
+import logo from './img/Vichaar.png'
+
 
 const Header = () => {
     const authStatus = useSelector((state) => state.auth.status);
